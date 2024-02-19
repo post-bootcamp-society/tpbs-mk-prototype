@@ -9,6 +9,4 @@ jobs:
     steps:
       - uses: technote-space/toc-generator@v4
         with: 
-          TOC_TITLE: "## Table of Contents"
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           FOLDING: true
