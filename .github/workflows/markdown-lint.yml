@@ -2,7 +2,9 @@ name: markdown-lint
 on: ## pull request
   pull_request:
     paths:
-      - '**/*.md'
+      - '*.md'
+      - 'docs/*.md'
+      - 'docs/**/*.md'
 jobs:
   deploy:
     runs-on: ubuntu-latest
