@@ -9,6 +9,7 @@
 - [Contribution Guideline](#contribution-guideline)
   - [Dev Containers](#dev-containers)
   - [MkDocs](#mkdocs)
+  - [Linting](#linting)
   - [How to contribute](#how-to-contribute)
 
 </details>
@@ -40,6 +41,15 @@ IDE that supports dev containers.
 [MkDocs](https://www.mkdocs.org/) is a static site generator that's geared towards
 project documentation. Documentation source files are written in Markdown, and
 configured with a single YAML configuration file.
+
+### Linting
+
+This repository uses [markdownlint](https://github.com/DavidAnson/markdownlint)
+to lint Markdown files. If you're using VSCode with the dev container, the
+extension [DavidAnson.vscode-markdownlint](https://marketplace.visualstudio.com/items?itemName=DavidAnson.vscode-markdownlint)
+should be installed. If you're not using VSCode, you can use the CLI version
+[markdownlint-cli2](https://github.com/DavidAnson/markdownlint-cli2) to lint
+your files.
 
 ### How to contribute
 
