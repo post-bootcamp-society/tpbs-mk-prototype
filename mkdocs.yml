@@ -1,4 +1,5 @@
 site_name: PBS
+
 theme:
   name: material
   features:
@@ -6,3 +7,15 @@ theme:
     - navigation.expand
     - toc.follow
     - toc.integrate    
+    
+markdown_extensions:
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
+extra: 
+  social: 
+  - icon: fontawesome/brands/github 
+    link: https://github.com/post-bootcamp-society/tpbs-mk-prototype
+    name: GitHub
