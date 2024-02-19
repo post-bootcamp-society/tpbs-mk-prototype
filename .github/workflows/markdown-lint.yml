@@ -2,11 +2,12 @@ name: markdown-lint
 on: ## pull request
   pull_request:
     paths:
-      - '*.md'
-      - 'docs/*.md'
-      - 'docs/**/*.md'
+      - '**/*.md'
 jobs:
-  deploy:
+  lint:
     runs-on: ubuntu-latest
     steps:
+      - uses: actions/checkout@v4
       - uses: DavidAnson/markdownlint-cli2-action@v15
+        with:
+          globs: '**/*.md'
