@@ -1,6 +1,8 @@
 site_name: PBS
 theme:
   name: material
-
-nav:
-  - Home: index.md
+  features:
+    - navigation.sections
+    - navigation.expand
+    - toc.follow
+    - toc.integrate    
