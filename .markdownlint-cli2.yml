@@ -1,0 +1,4 @@
+config:
+  no-inline-html: false
+globs: '**/*.md'
+fix: true
