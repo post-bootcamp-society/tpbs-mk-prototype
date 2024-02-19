@@ -1,7 +1,16 @@
 # Post Bootcamp Society Prototype <!-- omit in toc -->
 
-<!-- START doctoc -->
-<!-- END doctoc -->
+<!-- START doctoc generated TOC please keep comment here to allow auto update -->
+<!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
+**Table of Contents**
+
+- [Overview](#overview)
+- [Contribution Guideline](#contribution-guideline)
+  - [Dev Containers](#dev-containers)
+  - [MkDocs](#mkdocs)
+  - [How to contribute](#how-to-contribute)
+
+<!-- END doctoc generated TOC please keep comment here to allow auto update -->
 
 ## Overview
 
