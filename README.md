@@ -2,7 +2,8 @@
 
 <!-- START doctoc generated TOC please keep comment here to allow auto update -->
 <!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
-**Table of Contents**
+<details>
+<summary>## Table of Contents</summary>
 
 - [Overview](#overview)
 - [Contribution Guideline](#contribution-guideline)
@@ -10,6 +11,7 @@
   - [MkDocs](#mkdocs)
   - [How to contribute](#how-to-contribute)
 
+</details>
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
 
 ## Overview
