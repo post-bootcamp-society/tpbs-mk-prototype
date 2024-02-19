@@ -13,4 +13,5 @@ to help graduates take their captstone projects to the next level, while allowin
 the community to contribute guides to provide their own insights and experiences.
 
 ## Core Team
+
 - [Ian Yu](https://github.com/ianyu93)

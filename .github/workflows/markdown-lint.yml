@@ -3,6 +3,10 @@ on: ## pull request
   pull_request:
     paths:
       - '**/*.md'
+
+permissions:
+  contents: write
+
 jobs:
   lint:
     runs-on: ubuntu-latest
@@ -12,3 +16,8 @@ jobs:
         with:
           config: '.markdownlint.yml'
           globs: '**/*.md'
+          fix: true
+      - uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: 'style: lint markdown files'
+          branch: ${{ github.head_ref }}
